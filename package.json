@@ -1,0 +1,13 @@
+{
+  "name": "qrcode",
+  "private": true,
+  "packageManager": "pnpm@10.30.3",
+  "engines": { "node": ">=22" },
+  "pnpm": { "onlyBuiltDependencies": ["esbuild"] },
+  "scripts": {
+    "dev": "pnpm --filter @qrcode/web dev",
+    "build": "pnpm --filter @qrcode/web build",
+    "preview": "pnpm --filter @qrcode/web preview",
+    "typecheck": "pnpm --filter @qrcode/web exec tsc -b"
+  }
+}
