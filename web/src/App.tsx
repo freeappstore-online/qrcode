@@ -69,7 +69,7 @@ export function App() {
     <Shell>
       <h1
         className="text-3xl font-bold mb-6"
-        style={{ fontFamily: "var(--font-display)" }}
+        style={{ fontFamily: "Fraunces, Georgia, serif" }}
       >
         QR Code Generator
       </h1>
